@@ -1,0 +1,19 @@
+/* div 
+    p
+
+p
+p
+
+/* List items that are children of the "my-things" list */
+/* ul.my-things > li {
+    margin: 2em;
+  } */ 
+
+  
+div > p {
+    background-color: yellow;
+}
+
+p:not(div *) {
+    font-weight: bold;
+}

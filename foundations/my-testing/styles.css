@@ -1,0 +1,91 @@
+/* Direct child selector */
+div > p {
+    background-color: yellow;
+}
+
+/* Not selector */
+p:not(div *) {
+    font-weight: bold;
+}
+
+/* Adjacent sibling selector */
+h1 + p {
+    color: blue;
+}
+
+/* General sibling selector */
+h1 ~ p {
+    font-style: italic;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+    color: red;
+}
+
+/* Child selector */
+ul > li {
+    list-style-type: square;
+}
+
+/* Descendant selector */
+div p {
+    margin: 20px;
+}
+
+/* First-of-type selector */
+p:first-of-type {
+    text-decoration: underline;
+}
+
+/* Last-of-type selector */
+p:last-of-type {
+    text-decoration: overline;
+}
+
+/* Nth-child selector */
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* Nth-of-type selector */
+p:nth-of-type(2) {
+    color: green;
+}
+
+/* Only-of-type selector */
+p:only-of-type {
+    border: 2px solid black;
+}
+
+/* Hover pseudo-class */
+a:hover {
+    text-decoration: none;
+}
+
+/* Focus pseudo-class */
+input:focus {
+    border-color: blue;
+}
+
+/* Before pseudo-element */
+p::before {
+    content: "Note: ";
+    font-weight: bold;
+}
+
+/* After pseudo-element */
+p::after {
+    content: " (Read more)";
+    font-style: italic;
+}
+
+/* Checked pseudo-class */
+input:checked {
+    background-color: yellow;
+}
+
+/* Disabled pseudo-class */
+input:disabled {
+    background-color: lightgray;
+}
